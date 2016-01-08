@@ -1,9 +1,9 @@
 # ignore the following files/directories
-site/
-options/
-templates/
-lang/
-temp/
+site/*
+options/*
+templates/*
+lang/*
+temp/*
 config.php
 
 # exception of the above rule
