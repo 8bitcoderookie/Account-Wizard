@@ -1,12 +1,14 @@
-# ignore the following files/directories
-site/*
-options/*
-templates/*
+# ignore the following files/directories...
 lang/*
+options/*
+site/*
 temp/*
+templates/*
 config.php
 
-# exception of the above rule
-!options/example.php
-!templates/example.html
+# ...except the following files
 !lang/de.php
+!options/example.php
+!site/readme.txt
+!temp/readme.txt
+!templates/example.html

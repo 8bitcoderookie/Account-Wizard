@@ -1,0 +1,1 @@
+Put personal files in this directory. They will not be tracked or modified by git.
