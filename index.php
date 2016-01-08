@@ -10,6 +10,9 @@
 * @desc This file handles all the steps of the wizard
 */
 
+if (!file_exists('config.php')) {
+    exit('Please copy `_config.php` to `config.php` and change values to fit your environment, first');
+}
 require_once('config.php');
 
 require_once($LOCALISATAION_SUBDIR.'/'.$FILE_LOCALIZED_STRINGS);
